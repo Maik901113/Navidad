@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(83, 200, 220);
+}
+.cuentaRegresiva{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: red;
+
+}
+.cuentaRegresiva.mensaje{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: red;
+
+}
+.mensajeInicial{
+    display: flex;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    justify-content: left;
+
+    color: red;
+
+}
+.dias, .horas, .minutos, .segundos{
+    font-size: 30px;
+    width: 200px;
+    height: 100px;
+    border: 0.2rem solid white;
+    border-radius: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: cursive;
+
+}
+.figuraOff {
+    width:500px;
+    height: 500px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-image: url("../img/papaNoel1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+.figuraOff.on{
+    background-image: url("../img/papaNoel.gif");
+    background-size: contain;
+}
+
+.botones{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.botonOn, .botonOff {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: cursive;
+}
+.botonOn.on{
+    background-image: url("../img/papanoel_png.png");
+}
+.botonOn:hover, .botonOff:hover{
+    background-color: aqua;
+    color: black;
+}
